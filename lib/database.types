@@ -1,0 +1,141 @@
+export type Json =
+  | string
+  | number
+  | boolean
+  | null
+  | { [key: string]: Json | undefined }
+  | Json[]
+
+export interface Database {
+  public: {
+    Tables: {
+      leads: {
+        Row: {
+          id: number
+          name: string
+          position: string | null
+          location: string | null
+          description: string | null
+          employees: string | null
+          industry: string | null
+          tags: string[] | null
+          image_url: string | null
+          logo_url: string | null
+          created_at: string
+        }
+        Insert: {
+          id?: number
+          name: string
+          position?: string | null
+          location?: string | null
+          description?: string | null
+          employees?: string | null
+          industry?: string | null
+          tags?: string[] | null
+          image_url?: string | null
+          logo_url?: string | null
+          created_at?: string
+        }
+        Update: {
+          id?: number
+          name?: string
+          position?: string | null
+          location?: string | null
+          description?: string | null
+          employees?: string | null
+          industry?: string | null
+          tags?: string[] | null
+          image_url?: string | null
+          logo_url?: string | null
+          created_at?: string
+        }
+      }
+      matched_leads: {
+        Row: {
+          id: number
+          user_id: string
+          lead_id: number
+          matched_at: string
+        }
+        Insert: {
+          id?: number
+          user_id: string
+          lead_id: number
+          matched_at?: string
+        }
+        Update: {
+          id?: number
+          user_id?: string
+          lead_id?: number
+          matched_at?: string
+        }
+      }
+      profiles: {
+        Row: {
+          id: string
+          email: string
+          full_name: string | null
+          avatar_url: string | null
+          created_at: string
+          updated_at: string
+        }
+        Insert: {
+          id: string
+          email: string
+          full_name?: string | null
+          avatar_url?: string | null
+          created_at?: string
+          updated_at?: string
+        }
+        Update: {
+          id?: string
+          email?: string
+          full_name?: string | null
+          avatar_url?: string | null
+          created_at?: string
+          updated_at?: string
+        }
+      }
+      saved_leads: {
+        Row: {
+          id: number
+          user_id: string
+          lead_id: number
+          saved_at: string
+        }
+        Insert: {
+          id?: number
+          user_id: string
+          lead_id: number
+          saved_at?: string
+        }
+        Update: {
+          id?: number
+          user_id?: string
+          lead_id?: number
+          saved_at?: string
+        }
+      }
+      viewed_leads: {
+        Row: {
+          id: number
+          user_id: string
+          lead_id: number
+          viewed_at: string
+        }
+        Insert: {
+          id?: number
+          user_id: string
+          lead_id: number
+          viewed_at?: string
+        }
+        Update: {
+          id?: number
+          user_id?: string
+          lead_id?: number
+          viewed_at?: string
+        }
+      }
+    }
+  }
+}
