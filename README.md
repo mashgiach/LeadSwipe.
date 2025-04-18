@@ -1,30 +1,91 @@
-# Tinder-like lead app
+# LeadSwipe v0.1
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+> AI-powered lead discovery platform with a swipeable interface
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/avivzusims-projects/v0-tinder-like-lead-app)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/h70lApZsn6o)
+LeadSwipe is an open-source project that helps freelancers and businesses discover relevant leads through an intuitive, Tinder-like swiping interface. The system uses AI to match users with potential clients based on their skills and preferences.
 
-## Overview
+## 🚀 Features
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+- **AI-Powered Matching**: Smart algorithms identify the most relevant leads for your specific skills and services
+- **Swipeable Interface**: Easily browse potential leads with a familiar, swipe-based UX inspired by popular social apps
+- **Automated Personalization**: Generate tailored outreach messages based on both your profile and the lead's information
+- **Ethical Data Collection**: Only processes publicly available information from social platforms in compliance with legal standards
+- **Cross-Platform**: Works on web and mobile devices
 
-## Deployment
+## 📋 Project Status
 
-Your project is live at:
+This project is currently in version 0 (early alpha). We're in active research and development, refining our matching algorithms and investigating the most effective approaches for social outreach.
 
-**[https://vercel.com/avivzusims-projects/v0-tinder-like-lead-app](https://vercel.com/avivzusims-projects/v0-tinder-like-lead-app)**
+## 🔧 Tech Stack
 
-## Build your app
+- **Frontend**: React.js with TailwindCSS
+- **Backend**: Supabase
+- **AI Processing**: Currently using open-source models
+- **Database**: Supabase
 
-Continue building your app on:
+## 🛠️ Installation
 
-**[https://v0.dev/chat/projects/h70lApZsn6o](https://v0.dev/chat/projects/h70lApZsn6o)**
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/leadswipe.git
 
-## How It Works
+# Navigate to project directory
+cd leadswipe
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+# Install dependencies
+npm install
+
+# Set up environment variables
+cp .env.example .env
+# Edit .env with your configuration
+
+# Start development server
+npm run dev
+```
+
+## 🔍 How It Works
+
+1. **Profile Creation**: Users create profiles detailing their skills, services, and ideal client types
+2. **Lead Discovery**: Our AI scans publicly available information to identify potential matches
+3. **Swipe Interface**: Users review suggested leads with a simple swipe interaction
+4. **Smart Messaging**: When a match is confirmed, the system suggests personalized outreach messages
+5. **Performance Analytics**: Track your success rates and optimize your approach
+
+## 🤝 Contributing
+
+We welcome contributions to LeadSwipe! If you're interested in helping, please:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+See our [CONTRIBUTING.md](CONTRIBUTING.md) for more details.
+
+## 📊 Research Focus
+
+We're actively researching:
+- Optimal algorithms for matching freelancers with appropriate leads
+- Effective patterns for social outreach messages
+- User experience optimizations for lead discovery
+
+## ⚖️ Legal & Ethics
+
+LeadSwipe is committed to ethical data practices:
+- We only process publicly available information
+- No scraping of private or protected data
+- Compliance with platform Terms of Service
+- Respect for user privacy and data protection regulations
+
+## 📜 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 📬 Contact
+
+Project Lead - [your-email@example.com](mailto:your-email@example.com)
+
+Project Link: [https://github.com/yourusername/leadswipe](https://github.com/yourusername/leadswipe)
+
+---
