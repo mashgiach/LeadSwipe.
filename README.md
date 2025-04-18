@@ -27,7 +27,7 @@ This project is currently in version 0 (early alpha). We're in active research a
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/leadswipe.git
+git clone https://github.com/mashgiach/LeadSwipe..git
 
 # Navigate to project directory
 cd leadswipe
@@ -84,8 +84,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📬 Contact
 
-Project Lead - [your-email@example.com](mailto:your-email@example.com)
+Project Lead - [avivzusim@gmail.com](mailto:avivzusim@gmail.com)
 
-Project Link: [https://github.com/yourusername/leadswipe](https://github.com/yourusername/leadswipe)
+Project Link: [https://github.com/mashgiach/LeadSwipe./](https://github.com/mashgiach/LeadSwipe./)
 
 ---
